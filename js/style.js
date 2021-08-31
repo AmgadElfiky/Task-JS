@@ -1,17 +1,19 @@
 let btn = document.querySelector('button');
 let p = document.querySelector('p');
-
+let body = document.querySelector('body');
+let i = document.querySelector('i');
 
 btn.onclick = function () {
-    if (p.classList.contains('dark')) {
-        p.classList.toggle('dark');
+    if (body.classList.contains('body')) {
+        body.classList.toggle('body');
         btn.classList = "btn btn-dark";
-        btn.innerText = "Dark Mode";
-
+        btn.classList += " my-3"
+        i.classList = "far fa-moon";
     } else {
-        p.classList.toggle('dark');
+        body.classList.toggle('body');
         btn.classList = "btn btn-light";
-        btn.innerText = "Light Mode";
+        btn.classList += " my-3"
+        i.classList = "far fa-sun";
     }
 }
 

@@ -5,12 +5,14 @@
 
 .dark{
     color: red;
-    background-color: rgb(0, 0, 0);
+    background-color: #000000;
+    transition: .5s;
 }
 
 .light{
     color: snow;
     background-color: white;
+    transition: .5s;
 }
 
 p{
@@ -24,4 +26,9 @@ p{
     background-image: linear-gradient(to right,black,red,black);
     margin: auto;
     border-radius: 50%;
+}
+
+.body{
+    color: red;
+    background-color: black;
 }
