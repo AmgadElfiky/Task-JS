@@ -31,5 +31,4 @@ btn2[1].onclick = function () {
     div[0].style.width = w + "px";
     div[0].style.height = h + "px";
     div[0].style.backgroundColor = bg;
-
 }
